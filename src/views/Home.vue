@@ -1,10 +1,10 @@
 <template>
   <div>
     <div class="Head">
-      Sound Pad ทำมือ
+      Sound Pad ทำมือ v.0.0
     </div>
     <div class="column is-8 is-offset-2">
-      <draggable :list="favs" group="sound" class="favorite">
+      <draggable :list="favs" group="sound" class="favorite" @change="log">
         <c-button
           class="is-info" v-for="(sound, index) in favs"
           :key="`fav-${index}`"
@@ -38,7 +38,22 @@ import sounds from '@/utils/sound.json'
 })
 export default class Home extends Vue {
   private sounds: any[] = sounds
-  private favs: any[] = []
+  private favs: any = []
+
+  log (): void {
+    window.localStorage.setItem('fav_sound', JSON.stringify(this.favs))
+  }
+
+  setFavs (): void {
+    const favString = window.localStorage.getItem('fav_sound')
+    if (favString) {
+      this.favs = JSON.parse(favString)
+    }
+  }
+
+  mounted (): void {
+    this.setFavs()
+  }
 }
 </script>
 
