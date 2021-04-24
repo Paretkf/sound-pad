@@ -1,18 +1,55 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+  <div>
+    <div class="Head">
+      Sound Pad ทำมือ
+    </div>
+    <div class="column is-8 is-offset-2">
+      <draggable :list="favs" group="sound" class="favorite">
+        <c-button
+          class="is-info" v-for="(sound, index) in favs"
+          :key="`fav-${index}`"
+          :text="sound.th"
+          :sound="sound" />
+      </draggable>
+    </div>
+    <div class="column is-8 is-offset-2">
+      <draggable :list="sounds" group="sound" class="favorite">
+        <c-button
+          class="is-info" v-for="(sound, index) in sounds"
+          :key="`fav-${index}`"
+          :text="sound.th"
+          :sound="sound"/>
+      </draggable>
+    </div>
   </div>
 </template>
 
-<script lang="ts">
-import { Component, Vue } from 'vue-property-decorator';
-import HelloWorld from '@/components/HelloWorld.vue'; // @ is an alias to /src
+<script lang="ts">  
+import draggable from 'vuedraggable'
+import CButton from '@/components/c-button.vue'
+import { Component, Vue } from 'vue-property-decorator'
+import sounds from '@/utils/sound.json'
 
 @Component({
   components: {
-    HelloWorld,
-  },
+    draggable,
+    CButton
+  }
 })
-export default class Home extends Vue {}
+export default class Home extends Vue {
+  private sounds: any[] = sounds
+  private favs: any[] = []
+}
 </script>
+
+<style scoped>
+.favorite {
+  margin-top: 20px;
+  border: 2px dashed #cfcfcf;
+  border-radius: 18px;
+  min-height: 200px;
+  display: flex;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+</style>
