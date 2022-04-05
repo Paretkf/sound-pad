@@ -12,6 +12,54 @@
     "categories": ["standard"]
   },
   {
+    "path": "tum-pai-tum-mai.mp3",
+    "th": "ทำไปทำไม ทำเพื่ออะไร",
+    "en": "tum pai tum mai",
+    "categories": ["standard"]
+  },
+  {
+    "path": "dang-surprise.mp3",
+    "th": "จ๊ะเอ๋ ตัวเอง",
+    "en": "dang surprise",
+    "categories": ["standard"]
+  },
+  {
+    "path": "black_in_black_ac_dc_x_dang.mp3",
+    "th": "Black in black AC/DC x อาจารย์แดง กีต้าร์",
+    "en": "Black in black AC/DC x Dang guitar",
+    "categories": ["standard"]
+  },
+  {
+    "path": "chamkraburng.mp3",
+    "th": "ละ ห แม่งใหญ่ ชามกระเบื้องชามกาไก่ ก๋วยเตี๋ยว",
+    "en": "champ kra burng",
+    "categories": ["standard"]
+  },
+  {
+    "path": "la_mun_kra_tug.mp3",
+    "th": "ละมันกระตุกจิตกระชากใจมั๊ย",
+    "en": "la mun kra tug",
+    "categories": ["standard"]
+  },
+  {
+    "path": "dang-kee-yes.mp3",
+    "th": "จงปล่อยให้มัน ... ขี้ yess",
+    "en": "dang kee yes",
+    "categories": ["standard"]
+  },
+  {
+    "path": "แบลบๆ.mp3",
+    "th": "แบลบๆ",
+    "en": "plab plab",
+    "categories": ["standard"]
+  },
+  {
+    "path": "แม่งโง่หรือฉลาดวะ.mp3",
+    "th": "แม่งโง่หรือฉลาดวะ",
+    "en": "mang ngo hrue chalad wa",
+    "categories": ["standard"]
+  },
+  {
     "path": "sa-wa-dee-kub.mp3",
     "th": "สวัสดีครับ",
     "en": "sa-wa-dee-kub",
