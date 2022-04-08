@@ -48,6 +48,24 @@
     "categories": ["standard"]
   },
   {
+    "path": "nuu-ruu-na-wa-pee.mp3",
+    "th": "หนูรู้นะว่าพี่เป็นคนขี้เยส",
+    "en": "nuu ruu na wa pee",
+    "categories": ["standard"]
+  },
+  {
+    "path": "ahhh-ngean.mp3",
+    "th": "อ่าาาส์ เงี่ย....ส์",
+    "en": "ahhh ngean",
+    "categories": ["standard"]
+  },
+  {
+    "path": "แบ๊ะๆ.mp3",
+    "th": "แบ๊ะ ๆ ๆ ๆ",
+    "en": "beh behh",
+    "categories": ["standard"]
+  },
+  {
     "path": "แบลบๆ.mp3",
     "th": "แบลบๆ",
     "en": "plab plab",
