@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="Head">
-      Sound Pad ทำมือ v.0.0.1
+      Sound Pad ทำมือ v.0.0.2
     </div>
     <div class="column is-8 is-offset-2">
       <draggable :list="favs" group="sound" class="favorite" @change="log">
@@ -37,8 +37,8 @@ import sounds from '@/utils/sound.json'
   }
 })
 export default class Home extends Vue {
-  private sounds: any[] = sounds
-  private favs: any = []
+  private sounds: unknown[] = sounds
+  private favs: unknown[] = []
 
   log (): void {
     window.localStorage.setItem('fav_sound', JSON.stringify(this.favs))
