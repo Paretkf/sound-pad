@@ -60,6 +60,12 @@
     "categories": ["standard"]
   },
   {
+    "path": "sound_animal_made.mp3",
+    "th": "เรียนเสียงสัตว์กับอาจารย์แดง",
+    "en": "Learn animals sound with Professor Red",
+    "categories": ["standard"]
+  },
+  {
     "path": "แบ๊ะๆ.mp3",
     "th": "แบ๊ะ ๆ ๆ ๆ",
     "en": "beh behh",
