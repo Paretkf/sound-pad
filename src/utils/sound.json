@@ -1,5 +1,17 @@
 [
   {
+    "path": "เป็นกล้วยอะไร.mp3",
+    "th": "เป็นกล้วยอะไร",
+    "en": "pen kuy a rai",
+    "categories": ["standard"]
+  },
+  {
+    "path": "พูดได้ไหม.mp3",
+    "th": "พูดได้ไหม",
+    "en": "pood dai mai",
+    "categories": ["standard"]
+  },
+  {
     "path": "india-sound.mp3",
     "th": "india",
     "en": "India",
