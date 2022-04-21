@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="Head">
-      Sound Pad ทำมือ v.0.0.2
+      Sound Pad ทำมือ v.0.0.2a
     </div>
     <div class="column is-8 is-offset-2">
       <draggable :list="favs" group="sound" class="favorite" @change="log">
