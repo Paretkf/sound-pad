@@ -84,6 +84,24 @@
     "categories": ["standard"]
   },
   {
+    "path": "เหมียวๆ.mp3",
+    "th": "เหมียว ๆ",
+    "en": "meaw meaw",
+    "categories": ["standard"]
+  },
+  {
+    "path": "โฮ่งๆ.mp3",
+    "th": "โฮ่ง ๆ ๆ ๆ ๆ",
+    "en": "hong hong",
+    "categories": ["standard"]
+  },
+  {
+    "path": "เจี๊ยกค่อก.mp3",
+    "th": "เจี๊ยกค่อก ๆ ๆ ๆ ๆ",
+    "en": "jeak kog",
+    "categories": ["standard"]
+  },
+  {
     "path": "แบ๊ะๆ.mp3",
     "th": "แบ๊ะ ๆ ๆ ๆ",
     "en": "beh behh",
