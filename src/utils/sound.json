@@ -1,8 +1,13 @@
 [
   {
-    "path": "Hello_are_you_ready.mp3",
-    "th": "Hello are you ready",
-    "en": "Hello are you ready"
+    "path": "Ok_are_you_ready_short.mp3",
+    "th": "Ok are you ready short",
+    "en": "Ok are you ready short"
+  },
+  {
+    "path": "Ok_are_you_ready.mp3",
+    "th": "Ok are you ready",
+    "en": "Ok are you ready"
   },
   {
     "path": "วอเอเอเอวอเอ.mp3",
